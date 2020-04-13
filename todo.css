@@ -39,3 +39,40 @@ form button:hover {
 	background: #3498db;
 	color: #fff;
 }
+
+.todo-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.todo-list{
+	min-width: 30%;
+	list-style: none;
+}
+.todo{
+	margin: 0.5rem;
+	background: #fff;
+	color: #000;
+	font-size: 1.2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.todo li{
+	flex: 1;
+}
+.trash-btn, .complete-btn {
+	background: #3498db;
+	color: #fff;
+	border: none;
+	padding: 1rem;
+	font-size: 1rem;
+	cursor: pointer;
+}
+.complete-btn{
+	background: rgb(73, 204, 73);
+}
+.todo-item{
+	padding: 0rem 0.5rem;
+}
