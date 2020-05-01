@@ -71,7 +71,7 @@ function deletecheck(e) {
 function filterTodo(e) {
   const todos = todoList.childNodes;
 
-  for (let i = 1; i < todos.length; i++) {
+  for (let i = 0; i < todos.length; i++) {
     switch (e.target.value) {
       case "all":
         todos[i].style.display = "flex";
